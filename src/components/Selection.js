@@ -1,7 +1,7 @@
 import React, { useState } from "react";
  
 export default function Selection(props) {
-    const [color,setColor]=useState({background:""})
+    const [color,setColor]=useState({color:""})
     
     return (
         
