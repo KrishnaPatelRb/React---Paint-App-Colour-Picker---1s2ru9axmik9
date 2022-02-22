@@ -6,7 +6,8 @@ export default function Selection(props) {
     return (
         
         <div className="fix-box" style={color} onClick={()=>{
-            setColor(props.a)
+            
+            props.applyColor(setColor)
         }}>
             <h2 style={{}} className="subeading">Selection</h2>
         </div>
