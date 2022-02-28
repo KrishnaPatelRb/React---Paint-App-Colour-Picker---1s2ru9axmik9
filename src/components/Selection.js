@@ -1,15 +1,15 @@
 import React, { useState } from "react";
  
 export default function Selection(props) {
-    const [color,setColor]=useState({color:""})
+    const [background,setBackground]=useState({background:""})
     
     return (
         
-        <div className="fix-box" style={color} onClick={()=>{
+        <div className="fix-box" style={background} onClick={()=>{
             
-            props.applyColor(setColor)
+            props.applyColor(setBackground)
         }}>
-            <h2 style={{}} className="subeading">Selection</h2>
+            <h2 className="subeading">Selection</h2>
         </div>
     )
 }
